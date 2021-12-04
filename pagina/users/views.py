@@ -7,4 +7,4 @@ TEMPLATE_DIRS=(
 )
 
 def index(request):
-    return HttpResponse("helloooo") 
+    return render(request,"index.html") 
